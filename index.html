@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jyoti - Web developer Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(39, 1, 35);
+            color: rgb(215, 169, 169);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 70px;
+            background-color: rgb(68, 15, 92);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: rgb(235, 162, 162);
+        }
+
+        nav ul li a:hover {
+            color: rgb(228, 169, 189);
+            font-size: 1.04rem;
+        }
+
+        main hr {
+            border: 0;
+            height: 1.2px;
+            background: pink;
+            margin: 40px 84px;
+
+        }
+
+        .left {
+            font-size: 1.5em;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 130px 0;
+        }
+
+        .firstSection>div {
+            width: 30%;
+        }
+
+        .leftSection {
+            font-size: 2.3rem;
+        }
+
+        .leftSection .buttons {
+            padding: 53px;
+        }
+
+        .leftSection .btn {
+            padding: 10px;
+            background: rgb(124, 75, 142);
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 15px;
+            cursor: pointer
+        }
+
+        .rightSection img {
+            width: 120%;
+            margin: 10px;
+        }
+
+        .purple {
+            color: rgb(212, 112, 154);
+
+        }
+
+        .text-gray {
+            color: gray;
+        }
+
+        #element {
+            color: rgb(122, 122, 230);
+
+
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secondSection h1 {
+            font-size: 1.5rem;
+        }
+
+        .secondSection .box {
+            background: white;
+            width: 80vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        h4 {
+            font-family: 'Times New Roman', Times, serif;
+            color: slategray;
+        }
+
+        h6 {
+            color: rgb(159, 123, 145);
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        h3 {
+            font-family: 'Times New Roman', Times, serif;
+            color: rgb(132, 179, 225);
+        }
+
+        h5 {
+            font-family: 'Times New Roman', Times, serif;
+            color: rgb(115, 99, 232);
+        }
+
+        h2 {
+            font-family: 'Times New Roman', Times, serif;
+            color: rgb(198, 135, 228);
+        }
+
+        p {
+            font: smaller;
+            color: cornsilk;
+        }
+
+        span {
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        footer {
+            background-color: rgb(68, 15, 92);
+        }
+
+        .footer {
+            display: flex;
+            padding: 22px 123px;
+            justify-content: space-evenly;
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        .footer>div {
+            width: 223px;
+        }
+
+        footer .footer-rights {
+            text-align: center;
+            color: gray;
+            padding: 12px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">JYOTI MAHUR</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li>
+                    <li><a href="/">About</a>
+                    <li>
+                    <li><a href="/">Projects</a>
+                    <li>
+                    <li><a href="/">Contact Me</a>
+                    <li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <header>
+    </header>
+    <main>
+
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi , My name is <span class="purple"> Jyoti</span>
+                <div>and i'm a Passionate </div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn">Visit Github</button>
+                    </di>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="bg.webp" alt="">
+
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+          <h3> <span class="text-gray">Work Experience</span></h3><br>
+            <h4>Internships</h4>
+            <h3>AWS Cloud Virtual | AICTE EduSkills | Virtual Mode (Sep 23 - Nov 23) </h3><br>
+
+            <h2>Projects(Academics)</h2>
+            <h5> Project-1 Blood Bank Management System (Feb, 2022 - Jun, 2022)</h5>
+            <h6>Developed a Blood Bank Management System to streamline the process of blood donation and management,
+                ensuring efficient handling of donor and recipient information, inventory management, and blood request
+                processing.</h6>
+            <h6>Technologies Used:<br>
+                Backend: Python (Django), SQLite<br>
+                Frontend: HTML, CSS, Bootstrap, JavaScript<br>
+                Additional Libraries: Taggit for tagging functionality.</h6><br>
+
+            <h5>Project-2 Camera Sensing Motion System</h5>
+            <h6> Developed an application for detecting motion using camera sensing technology and machine learning in
+                Python.</h6>
+            <h6>Technologies Used:<br>
+                Python, Raspberry Pi, Arduino, PyQt5, and SQLite Database.</h6>
+            <h6>
+                <ul>
+                    <li>Implemented real-time motion detection using advanced machine learning techniques.<br></li>
+                    <li>Created an alert system to send notifications upon detecting motion.<br></li>
+                    <li>Developed a user-friendly web interface for monitoring live video feeds and accessing recorded
+                        footage.
+            </h6><br></li>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h2>Jyoti's Portfolio</h2>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+
+                </ul>
+
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+
+                </ul>
+
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+            Copyright &#169; jyotisportfolio.com | All rights reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Front-end Developer'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
